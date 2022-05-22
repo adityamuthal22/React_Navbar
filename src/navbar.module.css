@@ -1,0 +1,29 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslategray;
+    color: white;
+    /* padding: 10px; */
+    align-items: center;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+a{
+    color: white;
+  text-decoration: none;
+}
+.btn{
+    background-color: lightskyblue;
+    border-radius:10px !important;
+    padding: 5px 10px 5px 10px;
+    border:none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+}
